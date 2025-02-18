@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 /* NAAV BAR */
@@ -374,4 +375,37 @@ table{
     font-family: poppins , sans-serif;
     font-weight: 600;
     line-height: 1.5;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+/* 667px to 995px */
+@media (min-width:669px) and (max-width:950px) {
+    /* .nav-bar ul{
+        display: flex;
+        justify-content: center;
+    } */
+
+    .container{
+        margin: 20px 30px;
+    }
+    
+    /* NAV BAR */
+    .nav-bar .large{
+        font-size: 1.7rem;
+    }
+
+    .nav-bar .medium2{
+        font-size: 0.7rem;
+    }
+
+    .nav-bar{
+        display: flex;
+        /* gap: 5rem; */
+    }
+
+    .nav-bar a{
+        margin-left: 2rem;
+    }
 }
